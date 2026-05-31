@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Создать историю - StoryTrip</title>
+    <link rel="stylesheet" href="create.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar container">
+            <a href="index.html" class="logo">StoryTrip</a>
+            <ul class="nav-menu">
+                <li><a href="gallery.html" class="nav-link">Истории</a></li>
+                <li><a href="create.html" class="nav-link active">Создать</a></li>
+                <li><a href="about.html" class="nav-link">О проекте</a></li>
+            </ul>
+            <a href="profile.html" class="btn-profile">Профиль/Войти</a>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="create-section">
+            <h1 class="page-title">Создать историю</h1>
+
+            <form class="create-form">
+                <div class="form-group">
+                    <label for="story-title">Название истории</label>
+                    <input type="text" id="story-title" placeholder="Добавить название">
+                </div>
+
+                <div class="form-group">
+                    <label for="chapter-title">Название главы</label>
+                    <input type="text" id="chapter-title" placeholder="Добавить название главы">
+                </div>
+
+                <div class="form-group">
+                    <label for="description">Описание</label>
+                    <textarea id="description" rows="5" placeholder="Добавить подробное описание"></textarea>
+                </div>
+
+                <div class="form-actions">
+                    <button type="button" class="btn-secondary">Добавить главу</button>
+                </div>
+
+                <div class="form-actions">
+                    <a href="preview.html" class="btn-secondary">Предпросмотр</a>
+                    <button type="submit" class="btn-publish">Публикация</button>
+                    <button type="reset" class="btn-undo">↺</button>
+                </div>
+
+                <div class="upload-section">
+                    <h3>Загрузка фотографий</h3>
+                    <button type="button" class="btn-upload">+</button>
+                </div>
+
+                <div class="photos-grid">
+                    <div class="photo-item">
+                        <img src="./images/create/houses.png" alt="Фото 1">
+                    </div>
+                    <div class="photo-item">
+                        <img src="./images/create/ice_with_snow.png" alt="Фото 2">
+                    </div>
+                    <div class="photo-item">
+                        <img src="./images/create/ice_with_sun.png" alt="Фото 3">
+                    </div>
+                    <div class="photo-item">
+                        <img src="./images/create/two_people.png" alt="Фото 4">
+                    </div>
+                    <div class="photo-item">
+                        <img src="./images/create/mountain.png" alt="Фото 5">
+                    </div>
+                    <div class="photo-item">
+                        <img src="./images/create/ice.png" alt="Фото 6">
+                    </div>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-logo">StoryTrip</div>
+                    <p>Путешествия – истории, которые создаем мы сами.</p>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Меню</h4>
+                    <ul>
+                        <li><a href="index.html">Главная</a></li>
+                        <li><a href="about.html">О проекте</a></li>
+                        <li><a href="#">Галерея историй</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Пользователям</h4>
+                    <ul>
+                        <li><a href="create.html">Создать историю</a></li>
+                        <li><a href="profile.html">Вход/Регистрация</a></li>
+                        <li><a href="#">Правила</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Контакты</h4>
+                    <div class="social-icons">
+                        <span class="social-icon instagram">IG</span>
+                        <span class="social-icon vk">VK</span>
+                        <span class="social-icon telegram">TG</span>
+                    </div>
+                    <p>hello@storytrip.com</p>
+                    <p>Рассылка</p>
+                    <input type="email" placeholder="Ваш email" class="email-input">
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

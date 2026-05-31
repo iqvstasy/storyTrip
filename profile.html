@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Профиль - StoryTrip</title>
+  <link rel="stylesheet" href="profile.css">
+</head>
+
+<body>
+  <header class="header">
+    <nav class="navbar container">
+      <a href="index.html" class="logo">StoryTrip</a>
+      <ul class="nav-menu">
+        <li><a href="gallery.html" class="nav-link">Истории</a></li>
+        <li><a href="create.html" class="nav-link">Создать</a></li>
+        <li><a href="about.html" class="nav-link">О проекте</a></li>
+      </ul>
+      <a href="profile.html" class="btn-profile">Профиль/Войти</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="profile-header">
+      <div class="container profile-wrapper">
+        <div class="profile-avatar">
+          <img src="./images/profile/profile.png" alt="Алексей Иванов">
+        </div>
+        <div class="profile-content">
+          <div class="profile-name-box">
+            <h1>Алексей Иванов</h1>
+          </div>
+          <div class="profile-bio-box">
+            <p>Путешественник, фотограф любитель.<br>
+              Делюсь историями из своих поездок по России и миру.<br>
+              В поисках новых горизонтов и культур.<br>
+              Следующее приключение: Шанхай</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container stories-section">
+      <h2 class="section-title">Мои истории</h2>
+      <div class="stories-grid">
+        <div class="story-card">
+          <img src="./images/profile/kamchtka.png" alt="Камчатка">
+          <h3>Затерянные тропы камчатки</h3>
+        </div>
+        <div class="story-card">
+          <img src="./images/profile/stambul.png" alt="Стамбул">
+          <h3>Три дня в стамбуле</h3>
+        </div>
+        <div class="story-card">
+          <img src="./images/profile/baikal.png" alt="Байкал">
+          <h3>Зимний Байкал</h3>
+        </div>
+      </div>
+
+      <div class="text-center">
+        <button class="btn-primary">Создать историю</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <div class="footer-logo">StoryTrip</div>
+          <p>Путешествия – истории, которые создаем мы сами.</p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Меню</h4>
+          <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="about.html">О проекте</a></li>
+            <li><a href="gallery.html">Галерея историй</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Пользователям</h4>
+          <ul>
+            <li><a href="create.html">Создать историю</a></li>
+            <li><a href="profile.html">Вход/Регистрация</a></li>
+            <li><a href="#">Правила</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Контакты</h4>
+          <div class="social-icons">
+            <span class="social-icon instagram">IG</span>
+            <span class="social-icon vk">VK</span>
+            <span class="social-icon telegram">TG</span>
+          </div>
+          <p>hello@storytrip.com</p>
+          <p>Рассылка</p>
+          <input type="email" placeholder="Ваш email" class="email-input">
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
