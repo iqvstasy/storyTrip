@@ -255,6 +255,11 @@ body {
     transform 0.3s,
     box-shadow 0.3s;
 }
+.story-card {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
 
 .story-card:hover {
   transform: translateY(-5px);
